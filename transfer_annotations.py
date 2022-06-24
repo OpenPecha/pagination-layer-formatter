@@ -21,7 +21,7 @@ def hfml_to_opf(hfml_name, pecha_output_path):
     return pecha_path
 
 if __name__ == "__main__":
-    types = ['narthang']
+    types = ['narthang', 'derge', 'peking']
     for text_type in types:
         source_text = Path(f"./serialized/{text_type}/{text_type}.txt").read_text(encoding='utf-8')
         target_text = Path(f"./D3871/{text_type}.txt").read_text(encoding='utf-8')
