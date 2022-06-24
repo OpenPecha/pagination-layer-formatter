@@ -1,0 +1,32 @@
+narthang: {
+    id: N4061, 
+    Pecha_id : IF6EAA761, 
+    work_id : W2KG5015,  
+    image_group : I2KG212398,
+    vol : 114, 
+    page : 1b1-38b7
+    }
+derge: {
+    id: D3871, 
+    Pecha_id : P000800,   
+    work_id : W23703,    
+    image_group : 1421,
+    vol : 105, 
+    page : 1a1-40a7
+    }
+peking: {
+    id: Q5272, 
+    Pecha_id : I647D7CBC, 
+    work_id : W1KG13126, 
+    image_group : I1KG13283, 
+    vol : 114, 
+    page : 1a1-45a7
+    }
+chone: {
+    id: C3837, 
+    Pecha_id : I1417FAF4, 
+    work_id : W1GS66030, 
+    image_group : I1GS66136,
+    vol : 105, 
+    page : 1b1-39a1
+    }
