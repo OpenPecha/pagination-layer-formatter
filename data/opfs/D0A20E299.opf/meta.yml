@@ -1,0 +1,23 @@
+id: D0A20E299
+source: https://library.bdrc.io
+source_file: null
+initial_creation_type: input
+imported: '2022-06-27T04:24:36+00:00'
+last_modified: '2022-06-27T10:21:02.009313+00:00'
+parser: null
+source_metadata:
+  id: bdr:W1KG13126
+  base:
+    EE71:
+      image_group_id: I1KG13283
+      title: བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ་བཞུགས་སོ།
+      total_pages: 88
+      order: 114
+      base_file: EE71.txt
+statistics: {}
+quality: {}
+copyright:
+  status: Unknown
+  notice: ''
+  info_url: null
+license: null

@@ -1,4 +1,5 @@
 
+from ctypes import alignment
 import json
 from pathlib import Path
 
@@ -20,8 +21,6 @@ def get_img_link(ann):
 
 def get_text2image_alignment(pecha_id, pagination_layer):
     text2image_alignment = {
-        'id': pecha_id,
-        'type': "image",
         'alignment' : []
     }
     alignments = []
@@ -51,8 +50,10 @@ def serialize_pagination_layer_to_json(opf_id, opf_path, json_path):
 
 
 if __name__ == "__main__":
-    opf_path = Path('./data/opfs/OC579B0AC/OC579B0AC.opf')
-    pecha_id = opf_path.stem
-    json_path = Path(f'./data/json/{pecha_id}.json')
-    serialize_pagination_layer_to_json(pecha_id, opf_path, json_path)
+    opf_paths = list(Path('./data/opfs/').iterdir())
+    alignment_path = Path('./data/image_alignments')
+    for opf_path in opf_paths:
+        pecha_id = opf_path.stem
+        json_path = (alignment_path / f'{pecha_id}.json')
+        serialize_pagination_layer_to_json(pecha_id, opf_path, json_path)
 

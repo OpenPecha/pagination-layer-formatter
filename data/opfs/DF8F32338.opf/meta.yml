@@ -1,0 +1,23 @@
+id: DF8F32338
+source: https://library.bdrc.io
+source_file: null
+initial_creation_type: input
+imported: '2022-06-27T04:23:53+00:00'
+last_modified: '2022-06-27T10:14:16.428385+00:00'
+parser: null
+source_metadata:
+  id: bdr:W23703
+  base:
+    4A8C:
+      image_group_id: '1421'
+      title: བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ་བཞུགས་སོ།
+      total_pages: 79
+      order: 105
+      base_file: 4A8C.txt
+statistics: {}
+quality: {}
+copyright:
+  status: Unknown
+  notice: ''
+  info_url: null
+license: null
