@@ -1,0 +1,28 @@
+id: 4dba7c9a808a4f5db389c2c9e4bc4b93
+bdrc-work-id: 
+title: བྱང་ཆུབ་སེམས་དཔའི་སྤྱོད་པ་ལ་འཇུག་པ་བཞུགས་སོ།
+alternative-title:
+author:
+isRoot: 'true'
+type-definition: 
+language: http://purl.bdrc.io/resource/LangBo
+wiki-data-id:
+instances:
+  - Derge: 
+      bdrc-instance-id: W2KG5015
+      D-id: D3871
+      google-ocr: P000800
+      loc: DF8F32338
+      relevance: 0
+  - Peking: 
+      bdrc-instance-id: W23703
+      Q-id: Q5272
+      google-ocr: I647D7CBC
+      loc: D0A20E299
+      relevance: 0
+  - Narthang:
+      bdrc-instance-id: W1KG13126
+      N-id: N4061
+      google-ocr: IF6EAA761
+      loc: D9755B799
+      relevance: 0

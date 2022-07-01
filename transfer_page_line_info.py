@@ -5,7 +5,7 @@ from openpecha.formatters.hfml import HFMLFormatter
 from openpecha.core.ids import get_diplomatic_id
 
 def transfer_annotations(source_text, target_text):
-    target_text = re.sub(r"\n", " ", target_text)
+    target_text = re.sub(r"\n", "", target_text)
     annotations = [['reference', r"(〔[\d+].+)"],['line_break', r"(\n)"]]
     result = transfer(source_text, annotations, target_text, output="txt")
     return result
